@@ -3,10 +3,12 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.VBox?>
 
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.helloworld.PrimaryController">
    <children>
+      <TextField fx:id="textFieldMessage" />
       <Label text="Primary View" />
       <Button fx:id="primaryButton" onAction="#switchToSecondary" text="Switch to Secondary View" />
       <Label fx:id="labelmessage" text="I love traffic (sike)" />
