@@ -7,6 +7,12 @@ import javafx.scene.control.TextField;
 
 public class PrimaryController {
 
+    //Initialize is similar to constructor for JavaFX
+    @FXML
+    public void initialize(){
+        System.out.println("The initializer ran.");
+    }
+    
     @FXML
     private TextField textFieldMessage;
 
